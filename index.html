@@ -1,60 +1,55 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>открытка на 23 февраля</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet">
+    <title>Document</title>
 </head>
-
 <body>
-    <div class="wrapper">
-        <div class="container">
-            <!-- шапка -->
-            <header class="header">
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="img/170.png" alt="логотип">
-                    </a>
-                </div>
-                <!-- заголовок -->
-                <div class="header__title">С днем защитника отечества!</div>
-            </header>
-            <!-- Основной блок -->
-            <main>
-                <section class="grettings">
-                    <div class="grettings__content">
-                        <div class="grettings__title">Поздравляем всех мальчиков, пап и дедушек</div>
-                        <div class="grettings__text">Желаем счастья, здоровья и множества побед!</div>
-                        <button class="grettings__btn" onclick="alert('вы-наши герои')">Отправить поздравление</button>
-                    </div>
-                    <img src="img/Без названия (5).jpg" alt="картинка" class="grettings__img">
-                </section>
-                <section class="congrate">
-                    <div class="congrate__title">наши поздравления</div>
-                    <ul class="congrate__list">
-                        <li class="congrate__card">
-                            <img src="img/Без названия (6).jpg" alt="1">
-                            <div class="congrate__text">лёгкости</div>
-                        </li>
-                        <li class="congrate__card">
-                            <img src="img/Без названия (7).jpg" alt="2">
-                            <div class="congrate__text">крепкости и сил</div>
-                        </li>
-                        <li class="congrate__card">
-                            <img src="img/Без названия (8).jpg" alt="3">
-                            <div class="congrate__text">многозадачности</div>
-                        </li>
-                    </ul>
-                </section>
-            </main>
-        </div>
-    </div>
+    <table border="1">
+        <caption>Заголовок таблицы</caption>
+        <tr>
+            <th>1 Заголовок ячейки</th>
+            <th>2 Заголовок ячейки</th>
+            <th>3 Заголовок ячейки</th>
+        </tr>
+        <tr>
+            <td>1 ячейка</td>
+            <td>2 ячейка</td>
+            <td>3 ячейка</td>
+        </tr>
+    </table><br><br>
+
+    <table border="1">
+        <caption>Aвтoмoбили</caption>
+        <thead> <tr>
+            <th>Номер п/п</th>
+            <th>Марка</th>
+            <th>Модель</th>
+            <th>Стоимость</th>
+        </tr></thead>
+       <tbody>  <tr>
+            <td>1</td>
+            <td>Тойота</td>
+            <td>Corolla</td>
+            <td>1900000</td>
+        </tr>
+        <tr> <td>2</td>
+            <td>Тойота</td>
+            <td>Camry</td>
+            <td>2400000</td>
+        </tr>
+        <tr> <td>3</td>
+            <td>Тойота</td>
+            <td>RAV 4</td>
+            <td>2600000</td>
+        </tr></tbody>
+      
+        <tr>
+            <td colspan="3">Итого</td>
+            <td>6900000</td>
+        </tr>
+
+    </table>
 </body>
 </html>
